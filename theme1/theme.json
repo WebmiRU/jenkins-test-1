@@ -1,0 +1,60 @@
+{
+    "title": "System theme",
+    "tabs": {
+        "animation": {
+            "title": "Анимация",
+            "fields": {
+                "animation_time": {
+                    "type": "integer",
+                    "label": "Время анимации показа сообщения",
+                    "description": "Время в миллисекундах. 1 секунда = 1000 миллисекунд",
+                    "placeholder": "1000",
+                    "validation": "",
+                    "value": 100,
+                    "items": null
+                },
+                "type": {
+                    "type": "select",
+                    "label": "Тип анимации",
+                    "description": "",
+                    "placeholder": "",
+                    "validation": "",
+                    "value": "from_right",
+                    "items": [
+                        {
+                            "title": "Появление сообщений слева",
+                            "value": "from_left"
+                        },
+                        {
+                            "title": "Появление сообщений справа",
+                            "value": "from_right"
+                        }
+                    ]
+                }
+            }
+        },
+        "tab2": {
+            "title": "Вкладка #2",
+            "fields": {
+                "login": {
+                    "type": "string",
+                    "label": "Login 2",
+                    "description": "",
+                    "placeholder": "Login 2",
+                    "validation": "",
+                    "value": "Test 1",
+                    "items": null
+                },
+                "password": {
+                    "type": "string",
+                    "label": "Password 2",
+                    "description": "",
+                    "placeholder": "Password 2",
+                    "validation": "",
+                    "value": "Test 2",
+                    "items": null
+                }
+            }
+        }
+    }
+}
